@@ -8,8 +8,8 @@ compinit
 # automatically enter directories without cd
 setopt auto_cd
 
-# use vim as an editor
-export EDITOR=vim
+# use sublime as default editor
+export EDITOR=subl
 
 # aliases
 if [ -e "$HOME/.aliases" ]; then
@@ -44,7 +44,7 @@ export PS1='[${SSH_CONNECTION+"%n@%m:"}%~] '
 setopt histignoredups
 
 # keep TONS of history
-export HISTSIZE=4096
+export HISTSIZE=5000
 
 # look for ey config in project dirs
 export EYRC=./.eyrc
