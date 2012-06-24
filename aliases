@@ -25,6 +25,9 @@ alias bake="bundle exec rake"
 alias s="bundle exec rspec"
 alias cuc="bundle exec cucumber"
 
+# Padrino
+alias p="padrino"
+
 # Rubygems
 alias gi="gem install"
 alias giv="gem install -v"
