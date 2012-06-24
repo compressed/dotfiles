@@ -3,3 +3,4 @@ export PATH="$PATH:/usr/local/sbin/"
 export HISTFILE=~/.zshistory
 export SAVEHIST=5000
 setopt INC_APPEND_HISTORY
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
